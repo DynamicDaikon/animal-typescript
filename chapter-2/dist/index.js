@@ -1,3 +1,11 @@
 "use strict";
 console.log('Hello TypeScript!');
+let a = 1 + 2;
+let b = a + 3;
+let c = {
+    apple: a,
+    banana: b
+};
+let d = c.banana * 4;
+console.log(d);
 //# sourceMappingURL=index.js.map
